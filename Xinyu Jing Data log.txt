@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg936\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\froman\fcharset0 TimesNewRomanPSMT;
+}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl480\slmult1\pardirnatural
+
+\f0\fs24 \cf0 1. Summary: Ambulette/paratransit services seem to need more attention. It showed that a high percentage of passengers complained about it. But it took the TLC longer time to deal with those complains. \
+2. I chose to work on 311 service requests data. I filtered agency TLC and exported the data as CSV for excel. It had 140,147 rows. \
+3. I used pivot table to see which borough in NYC received most complains in the past five years. It showed that Manhattan had the most taxi and limousine complains. The result was 86,187. Staten Island ranked the fifth and received 698 complains.\
+4. Then I started to look at what vehicle types people complained about most. There were car ambulette/paratransit, car service, commuter van and green taxi. Except car service, ambulette/paratransit, which is a mini van transporting disabled passengers, received 542 complains. This number consisted of 7.218% of the total complains.\
+5. So I decided to see how long did TLC take to deal with complains about ambulette/paratransit averagely? Was it longer than the average time that TLC used to deal with, for example, car service complains? If so, why? \
+6. I filtered all the \'93ambulette/paratransit\'94 data and copied them to a new sheet. Now we had 543 rows. \
+7. I created a new column called Processing Time. I used MINUS to count how long did it take to process the complain. \
+8. I used AVERAGE to count the average processing time
+\f1 . It was 61.15 days. There were 78 (14%) complains taking more than 100 days to process. \
+9. I continued to count the average processing time of other vehicle types. It was shorter than the ambulate processing time. For example, there were 6,645 cases about car service, and it took the TLC 52.49 days averagely to deal with complains about car services. \
+\
+\pard\pardeftab420\ri720\qj
+
+\f0 \cf0 Data story memo\
+Xinyu Jing\
+12/25/2015\
+\
+\pard\pardeftab420\ri720
+
+\b \cf0 Lede
+\f2 \
+\pard\pardeftab420\ri720
+
+\f0\b0 \cf0 If I\'92m going to write a story about this, I want to find a person who complained about ambulette/paratransit services and never received a satisfying reply. I will describe his/her experience as the lede of my story. \
+\
+\pard\pardeftab420\ri720
+
+\b \cf0 Nut graph\
+\pard\pardeftab420\ri720
+
+\b0 \cf0 In the past five years, the Taxi and Limousine Commission received 542 calls complaining about ambulette/paratransit services in New York City, the passenger usually had to wait more than 60 days for a reply. \
+\
+Unfortunately, for the most of the time, the reply had no meaningful context, \'93The Taxi and Limousine Commission will send a confirmation letter in 14 days to confirm your complaint details. At the hearing you may be required to provide information regarding this complaint. Please note your Service Request number for future reference.\'94 \
+\
+\pard\pardeftab420\ri720
+
+\b \cf0 Why this matters
+\f2 \
+\pard\pardeftab420\ri720
+
+\f0\b0 \cf0 Because this story is about a disabled group. And it seemed to earn less attention than other types of complains. 
+\f2 \
+\
+\pard\pardeftab420\ri720
+
+\f0\b \cf0 Further questions
+\f2 \
+\pard\pardeftab420\ri720
+
+\f0\b0 \cf0 Why it usually took so long (average 2 months) for the TLC to deal with those complains?\
+Are there any other issues with disabled vehicle services? \
+\
+\pard\pardeftab420\ri720
+
+\b \cf0 Reporting plan\
+\pard\pardeftab420\ri720
+
+\b0 \cf0 I need two or three victims who were the most typical angry passengers. \
+I need to talk to staff from Taxi and Limousine Commission and transportation experts. I also want to talk to people from ambulette service agencies in the city. Data about how many disabled people using ambulette/paratransit services in New York City, the basic information of those services, or the pick up and drop off locations would be very helpful. \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl480\slmult1\pardirnatural
+\cf0 \
+}
